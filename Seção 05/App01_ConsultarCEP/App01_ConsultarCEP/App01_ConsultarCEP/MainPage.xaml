@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App01_ConsultarCEP"
+             x:Class="App01_ConsultarCEP.MainPage">
+
+    <StackLayout Padding="30">
+        <!-- Place new controls here -->
+        <Entry x:Name="CEP" Placeholder="Digite o CEP"/>
+        <Entry x:Name="Rua" Placeholder="Rua"/>
+        <Entry x:Name="Numero" Placeholder="Numero"/>
+        <Entry x:Name="Complemento" Placeholder="Complemento"/>
+        <Entry x:Name="Bairro" Placeholder="Bairro"/>
+        <Entry x:Name="Cidade" Placeholder="Cidade"/>
+        <Entry x:Name="UF" Placeholder="UF"/>
+
+        <Button x:Name="Pesquisar" Text="Pesquisar"/>
+
+        <!--<Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />-->
+    </StackLayout>
+
+</ContentPage>
